@@ -32,6 +32,6 @@ When GeoPicks opens, paste the beta license key emailed to you (it starts with `
 
 ## Feedback and support
 
-Bug reports and suggestions are the whole point of the beta. Email [contact email] with what you were doing, what happened, and a screenshot if you can.
+Bug reports and suggestions are the whole point of the beta. Email geopicks.software@gmail.com with what you were doing, what happened, and a screenshot if you can.
 
 Kevin Reece, GeoPicks
