@@ -1,6 +1,6 @@
 # GeoPicks beta downloads
 
-GeoPicks is a Mac and Windows app for geologists, independents and consultants who map from well logs and seismic. It runs on your own machine, and your project data stays there.
+GeoPicks is a Mac and Windows app for geologists, independents and consultants who map from well logs and seismic. It runs on your own machine. Your logs, seismic, picks and maps never leave your machine. GeoPicks only sends an anonymous version check, which you can turn off in Settings.
 
 - **Raster-native logs:** pick tops directly on scanned PDF well logs. You don't need to digitize or have LAS files.
 - **Correlation:** hang wells on a datum, pick tops across cross sections, mark fault cuts and catch bad picks with QC checks.
@@ -51,7 +51,16 @@ The **Demo Data** project is listed on the home screen and opens on first launch
 
 ## Updates
 
-GeoPicks checks this page for a new beta once a day at launch. You can also click **Check for updates** on the home screen or the About page. When a new version is out, click **Update now**. GeoPicks downloads the installer, checks it against `SHA256SUMS.txt` and installs it. Your projects, license key and settings are kept.
+GeoPicks checks this page for a new beta once a day at launch, or sooner if the anonymous version check (below) reports a new release. You can also click **Check for updates** on the home screen or the About page. When a new version is out, click **Update now**. GeoPicks downloads the installer, checks it against `SHA256SUMS.txt` and installs it. Your projects, license key and settings are kept.
+
+## Anonymous launch check
+
+Starting with 1.7.7, each time GeoPicks starts it asks a small GeoPicks server for the latest version number. Usage data may be collected to improve the product: the check sends a random install ID (made by the app, not your Machine ID), the GeoPicks version, Mac or Windows, the processor type and a timestamp. That's how I count how many people use GeoPicks and how often. It never sends your projects, file names, license key, Machine ID, name or email, and the server doesn't store your IP address.
+
+- **Turn it off:** on the About page under **Settings**, untick **Share anonymous usage pings**. Updates still work when it's off.
+- **Offline:** if there's no network, GeoPicks skips the check and works normally.
+
+See the [privacy page](https://getgeopicks.com/privacy.html) for details.
 
 ## Feedback and support
 
